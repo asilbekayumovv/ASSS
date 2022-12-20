@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+<LinearLayout
+    android:layout_width="500dp"
+    android:layout_height="150dp"
+    android:background="#FF4B3A">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="32dp"
+        android:hint="Fried Rice"
+
+        android:textColorHint="@color/black"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:startIconDrawable="@drawable/search"
+
+
+
+        app:hintTextColor="#FF0000"
+        app:endIconMode="clear_text"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/img" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/image"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="-360dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_style"
+        android:text="Rescued"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:text="Vegan"
+        android:textSize="12dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="6dp"
+        android:textColor="@color/white"
+        style="@style/image"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:text="Delivery"
+        android:textSize="12dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="2dp"
+        android:textColor="@color/white"
+        style="@style/image"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:text=">100 cal"
+        android:textSize="12dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="2dp"
+        android:textColor="@color/white"
+        style="@style/image"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:text="Popular"
+        android:textSize="12dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="2dp"
+        android:textColor="@color/white"
+        style="@style/image"/>
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="440dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+
+    android:layout_marginTop="135dp"
+    android:layout_marginLeft="-515dp"
+    >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_4" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="Fried rice - Delivery"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="Dish"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_4" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="Fried rice - Delivery"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="Dish"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="120dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_5" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Fried rice - Delivery" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"
+            android:text="Dish" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="170dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_6" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Fried rice - Delivery" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"
+            android:text="Dish" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="220dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_7" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Fried rice - Delivery" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"
+            android:text="Dish" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="270dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_8" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Fried rice - Delivery" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"
+            android:text="Dish" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="320dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_5" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Fried rice - Delivery" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"
+            android:text="Dish" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="370dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_5" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Fried rice - Delivery" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"
+            android:text="Dish" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="420dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/img_5" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Fried rice - Delivery" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="30dp"
+            android:text="Dish" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>
